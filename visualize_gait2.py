@@ -9,7 +9,7 @@ KD = 2
 
 def get_walking_targets(sim_time):
     """
-    Implements your refined locomotion plan:
+    Implements a more refined locomotion plan:
     Support: Hip 60 -> 30, Knee 90
     Swing Part 1 (Retract): Hip stays 30, Knee 90 -> 45
     Swing Part 2 (Extend): Hip 30 -> 60, Knee 45 -> 90
